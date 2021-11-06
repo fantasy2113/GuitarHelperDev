@@ -1237,7 +1237,8 @@ function resetScale() {
 }
 
 function resetFretboard() {
-  document.cookie = '';
+  document.cookie = ' ';
+  console.log(document.cookie);
   location.reload();
 }
 
